@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="39" passed="38" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-04T11:22:14 IST" name="Suite" finished-at="2024-08-04T11:25:02 IST" duration-ms="167278">
+    <groups>
+    </groups>
+    <test started-at="2024-08-04T11:22:14 IST" name="Test" finished-at="2024-08-04T11:25:02 IST" duration-ms="167278">
+      <class name="com.qe.project.testcases.Logout_InTest">
+        <test-method is-config="true" signature="Logout()[pri:0, instance:com.qe.project.testcases.Logout_InTest@2d710f1a]" started-at="2024-08-04T11:24:54 IST" name="Logout" finished-at="2024-08-04T11:24:54 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method signature="logout()[pri:1, instance:com.qe.project.testcases.Logout_InTest@2d710f1a]" started-at="2024-08-04T11:24:54 IST" name="logout" finished-at="2024-08-04T11:24:56 IST" duration-ms="2107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:com.qe.project.testcases.Logout_InTest@2d710f1a]" started-at="2024-08-04T11:24:56 IST" name="Logout" finished-at="2024-08-04T11:24:56 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method signature="LogoutOption()[pri:2, instance:com.qe.project.testcases.Logout_InTest@2d710f1a]" started-at="2024-08-04T11:24:56 IST" name="LogoutOption" finished-at="2024-08-04T11:24:59 IST" duration-ms="2163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutOption -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:com.qe.project.testcases.Logout_InTest@2d710f1a]" started-at="2024-08-04T11:24:59 IST" name="Logout" finished-at="2024-08-04T11:24:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method signature="LogoutBtm()[pri:3, instance:com.qe.project.testcases.Logout_InTest@2d710f1a]" started-at="2024-08-04T11:24:59 IST" name="LogoutBtm" finished-at="2024-08-04T11:25:02 IST" duration-ms="3134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutBtm -->
+      </class> <!-- com.qe.project.testcases.Logout_InTest -->
+      <class name="com.qe.project.testcases.Sign_InTaskTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:22:06 IST" name="setUp" finished-at="2024-08-04T11:22:14 IST" duration-ms="8209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="SignIn()[pri:0, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:22:14 IST" name="SignIn" finished-at="2024-08-04T11:22:14 IST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method signature="loginAcount()[pri:1, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:22:15 IST" name="loginAcount" finished-at="2024-08-04T11:22:17 IST" duration-ms="2130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAcount -->
+        <test-method signature="signUpbutton()[pri:2, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:22:17 IST" name="signUpbutton" finished-at="2024-08-04T11:22:18 IST" duration-ms="1153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpbutton -->
+        <test-method signature="countrySynbol()[pri:3, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:22:18 IST" name="countrySynbol" finished-at="2024-08-04T11:22:19 IST" duration-ms="1219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countrySynbol -->
+        <test-method signature="countryName()[pri:4, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:22:19 IST" name="countryName" finished-at="2024-08-04T11:22:20 IST" duration-ms="1146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countryName -->
+        <test-method signature="phoneNo()[pri:5, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:22:20 IST" name="phoneNo" finished-at="2024-08-04T11:22:21 IST" duration-ms="1310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phoneNo -->
+        <test-method signature="checkBox()[pri:6, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:22:21 IST" name="checkBox" finished-at="2024-08-04T11:22:23 IST" duration-ms="1119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBox -->
+        <test-method signature="continueButton()[pri:7, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:22:23 IST" name="continueButton" finished-at="2024-08-04T11:22:24 IST" duration-ms="1128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continueButton -->
+        <test-method signature="otp()[pri:8, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:22:24 IST" name="otp" finished-at="2024-08-04T11:22:28 IST" duration-ms="3958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- otp -->
+        <test-method signature="firstName()[pri:9, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:22:28 IST" name="firstName" finished-at="2024-08-04T11:22:31 IST" duration-ms="3433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstName -->
+        <test-method signature="lastName()[pri:10, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:22:31 IST" name="lastName" finished-at="2024-08-04T11:22:33 IST" duration-ms="2266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastName -->
+        <test-method signature="email()[pri:11, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:22:33 IST" name="email" finished-at="2024-08-04T11:22:35 IST" duration-ms="1347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- email -->
+        <test-method signature="done()[pri:12, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:22:35 IST" name="done" finished-at="2024-08-04T11:22:36 IST" duration-ms="1137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- done -->
+        <test-method signature="brandsDropdown()[pri:13, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:22:36 IST" name="brandsDropdown" finished-at="2024-08-04T11:22:48 IST" duration-ms="11639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brandsDropdown -->
+        <test-method signature="listOfProducts()[pri:14, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:22:48 IST" name="listOfProducts" finished-at="2024-08-04T11:22:59 IST" duration-ms="11268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listOfProducts -->
+        <test-method signature="quantityDropDown()[pri:15, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:22:59 IST" name="quantityDropDown" finished-at="2024-08-04T11:23:50 IST" duration-ms="51130" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//select[@class='jsx-f7424bbc83273932 timeline flex-grow-1']"}
+  (Session info: chrome=127.0.6533.89)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-9FDKH1JV', ip: '192.168.240.12', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\laksh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64369}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 30c4a58d5180b8f13cd4ff289c2b27d1
+*** Element info: {Using=xpath, value=//select[@class='jsx-f7424bbc83273932 timeline flex-grow-1']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@class='jsx-f7424bbc83273932 timeline flex-grow-1']"}
+  (Session info: chrome=127.0.6533.89)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-9FDKH1JV', ip: '192.168.240.12', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\laksh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64369}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 30c4a58d5180b8f13cd4ff289c2b27d1
+*** Element info: {Using=xpath, value=//select[@class='jsx-f7424bbc83273932 timeline flex-grow-1']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy15.getTagName(Unknown Source)
+at org.openqa.selenium.support.ui.Select.<init>(Select.java:45)
+at com.qe.project.pages.Sign_InTask.quantityDropDown(Sign_InTask.java:317)
+at com.qe.project.testcases.Sign_InTaskTest.quantityDropDown(Sign_InTaskTest.java:105)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quantityDropDown -->
+        <test-method signature="addToKart()[pri:16, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:23:50 IST" name="addToKart" finished-at="2024-08-04T11:23:51 IST" duration-ms="1189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToKart -->
+        <test-method signature="addToIcon()[pri:17, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:23:51 IST" name="addToIcon" finished-at="2024-08-04T11:23:53 IST" duration-ms="1210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToIcon -->
+        <test-method signature="productDetailsVerify()[pri:18, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:23:53 IST" name="productDetailsVerify" finished-at="2024-08-04T11:23:54 IST" duration-ms="1403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productDetailsVerify -->
+        <test-method signature="proccedCheckout()[pri:19, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:23:54 IST" name="proccedCheckout" finished-at="2024-08-04T11:23:55 IST" duration-ms="1148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proccedCheckout -->
+        <test-method signature="firstNameP()[pri:20, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:23:55 IST" name="firstNameP" finished-at="2024-08-04T11:23:58 IST" duration-ms="2634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstNameP -->
+        <test-method signature="lastNameP()[pri:21, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:23:58 IST" name="lastNameP" finished-at="2024-08-04T11:24:00 IST" duration-ms="2314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastNameP -->
+        <test-method signature="countryIcon()[pri:22, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:24:00 IST" name="countryIcon" finished-at="2024-08-04T11:24:01 IST" duration-ms="1226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countryIcon -->
+        <test-method signature="selectCountry()[pri:23, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:24:01 IST" name="selectCountry" finished-at="2024-08-04T11:24:03 IST" duration-ms="1186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCountry -->
+        <test-method signature="enterPhone()[pri:24, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:24:03 IST" name="enterPhone" finished-at="2024-08-04T11:24:05 IST" duration-ms="2334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPhone -->
+        <test-method signature="enterAddress()[pri:25, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:24:05 IST" name="enterAddress" finished-at="2024-08-04T11:24:07 IST" duration-ms="2334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterAddress -->
+        <test-method signature="enterZipcode()[pri:26, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:24:07 IST" name="enterZipcode" finished-at="2024-08-04T11:24:11 IST" duration-ms="3314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterZipcode -->
+        <test-method signature="continueButtonP()[pri:27, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:24:11 IST" name="continueButtonP" finished-at="2024-08-04T11:24:16 IST" duration-ms="5115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continueButtonP -->
+        <test-method signature="addNewCard()[pri:28, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:24:16 IST" name="addNewCard" finished-at="2024-08-04T11:24:19 IST" duration-ms="3194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCard -->
+        <test-method signature="nameCard()[pri:29, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:24:19 IST" name="nameCard" finished-at="2024-08-04T11:24:22 IST" duration-ms="3259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameCard -->
+        <test-method signature="cardNumber()[pri:30, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:24:22 IST" name="cardNumber" finished-at="2024-08-04T11:24:22 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cardNumber -->
+        <test-method signature="cVVnumber()[pri:31, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:24:22 IST" name="cVVnumber" finished-at="2024-08-04T11:24:23 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cVVnumber -->
+        <test-method signature="month()[pri:32, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:24:23 IST" name="month" finished-at="2024-08-04T11:24:26 IST" duration-ms="3229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- month -->
+        <test-method signature="yearYYY()[pri:33, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:24:26 IST" name="yearYYY" finished-at="2024-08-04T11:24:28 IST" duration-ms="2229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yearYYY -->
+        <test-method signature="addCard()[pri:34, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:24:28 IST" name="addCard" finished-at="2024-08-04T11:24:30 IST" duration-ms="2139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCard -->
+        <test-method signature="confirmOrder()[pri:35, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:24:30 IST" name="confirmOrder" finished-at="2024-08-04T11:24:33 IST" duration-ms="3108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmOrder -->
+        <test-method signature="closeIcon()[pri:36, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:24:33 IST" name="closeIcon" finished-at="2024-08-04T11:24:54 IST" duration-ms="20859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeIcon -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qe.project.testcases.Sign_InTaskTest@1b11171f]" started-at="2024-08-04T11:25:02 IST" name="tearDown" finished-at="2024-08-04T11:25:02 IST" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qe.project.testcases.Sign_InTaskTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.qe.project.testcases.warehouseRTV_Test">
+        <methods>
+          <include name="clickdocumenttype"/>
+          <include name="clickOnOK"/>
+          <include name="clickInvoice"/>
+          <include name="clickOnreturndate"/>
+          <include name="clickOnselect"/>
+          <include name="disposition1"/>
+          <include name="clickreturnmethod"/>
+          <include name="clicksubmit"/>
+          <include name="tearDown"/>
+          <include name="clickSubmitOK"/>
+          <include name="clickOndispatch"/>
+          <include name="clickOnselectdata"/>
+          <include name="clickOnupdate"/>
+          <include name="clickOnRTV"/>
+        </methods>
+      </class> <!-- com.qe.project.testcases.warehouseRTV_Test -->
+      <class name="com.qe.project.testcases.warehouseBCL_Test">
+        <methods>
+          <include name="damageCertificate"/>
+          <include name="selectBCLItem"/>
+          <include name="brandInspectionReport"/>
+          <include name="brandFieldFilter"/>
+          <include name="brandDecisionOkbutton"/>
+          <include name="brandInspectionOkbutton"/>
+          <include name="brandDecisionRTV"/>
+          <include name="selectBclTickets"/>
+          <include name="clickOnDispositionlinkTest"/>
+          <include name="brandDecision"/>
+          <include name="brandDatecalendorInpsection"/>
+          <include name="submitBrandInspection"/>
+          <include name="brandApplyFilter"/>
+          <include name="brandCallLogFilter"/>
+          <include name="brandDateOkInspection"/>
+          <include name="brandInspectionDate1"/>
+          <include name="clickBCLUpdate"/>
+          <include name="selectCalendorBclTickets"/>
+          <include name="brandDecisionSubsmit"/>
+          <include name="brandApprovalReferanceNo"/>
+          <include name="brandDecisionCreditNo"/>
+          <include name="damageUpload1"/>
+          <include name="pendingInformationOK"/>
+          <include name="clickBCL"/>
+          <include name="calendorOkBclTickets"/>
+          <include name="submitBCLTicketsOkbutton"/>
+          <include name="updateBclTickets"/>
+          <include name="submitBclTickets"/>
+          <include name="addDataField"/>
+          <include name="dispositonBCL"/>
+          <include name="pendingDecision"/>
+          <include name="selectPendingDecision"/>
+          <include name="ticketDateBclTickets"/>
+          <include name="decisionCreditNoteAmount"/>
+          <include name="pendingBclTickets"/>
+          <include name="parchaseUpdate"/>
+          <include name="parchaseInvoice"/>
+          <include name="submitFirst"/>
+          <include name="updatePendingDecision"/>
+          <include name="selectData2"/>
+          <include name="updateInspection"/>
+          <include name="BCLSelcetData1"/>
+          <include name="pendingInspection1"/>
+          <include name="clickOnDispositionlinkTest1"/>
+          <include name="selectInspection"/>
+          <include name="ticketNoBclTickets"/>
+        </methods>
+      </class> <!-- com.qe.project.testcases.warehouseBCL_Test -->
+      <class name="com.qe.project.testcases.Sign_InTest">
+        <methods>
+          <include name="SignIn"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.qe.project.testcases.Sign_InTest -->
+      <class name="com.qe.project.testcases.Logout_InTest">
+        <methods>
+          <include name="Logout"/>
+          <include name="Logout_Test"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.qe.project.testcases.Logout_InTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

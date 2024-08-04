@@ -25,34 +25,34 @@ public class ASign_InTask extends TestBase {
 	public static Random random = new Random();
 
 	@FindBy(xpath = "//span[text()='Login to your Account']")
-	WebElement LoginAcount;
+	private WebElement LoginAcount;
 
 	@FindBy(xpath = "//span[text()='Sign Up']")
-	WebElement signUpbutton;
+	private WebElement signUpbutton;
 	@FindBy(xpath = "//div[@class='selected-flag']")
-	WebElement countrySynbol;
+	private WebElement countrySynbol;
 
 	@FindBy(xpath = "(//span[@class='country-name'])[2]")
-	WebElement CountryName;
+	private WebElement CountryName;
 	@FindBy(xpath = "//input[@type='tel']")
-	WebElement PhoneNo;
+	private WebElement PhoneNo;
 	@FindBy(xpath = "//input[@type='checkbox']")
-	WebElement checkBox;
+	private WebElement checkBox;
 
 	@FindBy(xpath = "//span[text()='CONTINUE']")
-	WebElement Continue;
+	private WebElement Continue;
 	@FindBy(xpath = "//input[@class='inputStyle ']")
-	WebElement Otp;
+	private WebElement Otp;
 	@FindBy(xpath = "//input[@label='First Name*']")
-	WebElement FirstName;
+	private WebElement FirstName;
 
 	@FindBy(xpath = "//input[@label='Last Name*']")
-	WebElement LastName;
+	private WebElement LastName;
 
 	@FindBy(xpath = "//input[@type='email']")
-	WebElement email;
+	private WebElement email;
 	@FindBy(xpath = "//span[text()='DONE']")
-	WebElement Done;
+	private WebElement Done;
 
 	// div[@class='jsx-4225831484 jss10']
 
@@ -60,7 +60,7 @@ public class ASign_InTask extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 
-	private static String generateRandomPhoneNumber() {
+	public static String generateRandomPhoneNumber() {
 //        int num1 = random.nextInt(9) + 1; // First digit should be between 1-9
 //        int num2 = random.nextInt(10);    // Next digit between 0-9
 //        int num3 = random.nextInt(10);    // Next digit between 0-9
@@ -82,7 +82,7 @@ public class ASign_InTask extends TestBase {
 	        System.out.println(generateRandomPhoneNumber()); // Print a randomly generated Indian phone number
 	    }
 
-	private String generateRandomEmail() {
+	public String generateRandomEmail() {
 		String chars = "abcdefghijklmnopqrstuvwxyz";
 		String email = "";
 		for (int i = 0; i < 8; i++) {
@@ -180,16 +180,16 @@ public class ASign_InTask extends TestBase {
 	}
 
 	@FindBy(xpath = "//div[text()='Brands']")
-	WebElement BrandsDropdown;
+	private WebElement BrandsDropdown;
 
 	@FindBy(xpath = "//p[text()='Emani']")
-	WebElement EmaniOption;
+	private WebElement EmaniOption;
 
 	@FindBy(xpath = "//div[@class='jsx-c3ec2b6b129f087d card_content_wrapper pt-0']")
-	List<WebElement> ListOfProducts;
+	private List<WebElement> ListOfProducts;
 
 	@FindBy(xpath = "(//span[contains(text(), 'Skin')])")
-	WebElement Product;
+	private WebElement Product;
 //
 //	    public TaskTruly_In() {
 //	        PageFactory.initElements(driver, this);
@@ -253,66 +253,66 @@ public class ASign_InTask extends TestBase {
 	}
 
 	@FindBy(xpath = "//select[@class='jsx-f7424bbc83273932 timeline flex-grow-1']")
-	WebElement QuantityDropDown;
+	private WebElement QuantityDropDown;
 
 	@FindBy(xpath = "//button[text()='Add to Cart']")
-	WebElement AddToKart;
+	private WebElement AddToKart;
 
 	@FindBy(xpath = "//*[@id=\"__next\"]/div[1]/div/header/div[1]/div[3]/div[1]/ul/li[5]/a")
-	WebElement AddToIcon;
+	private WebElement AddToIcon;
 
 	@FindBy(xpath = "//h1[@class='title d-none d-md-block']")
-	WebElement ProductVerify;
+	private WebElement ProductVerify;
 
 	@FindBy(xpath = "//div[@class='detail_wrapper col pr-0']")
-	WebElement ProductDetailsVerify;
+	private WebElement ProductDetailsVerify;
 
 	@FindBy(xpath = "(//a[text()='Proceed to Checkout'])[1]")
-	WebElement ProccedCheckout;
+	private WebElement ProccedCheckout;
 
 	@FindBy(xpath = "//input[@name='firstName']")
-	WebElement FirstNameP;
+	private WebElement FirstNameP;
 
 	@FindBy(xpath = "//input[@name='lastName']")
-	WebElement LastNameP;
+	private WebElement LastNameP;
 
 	@FindBy(xpath = "//div[@class='selected-flag']")
-	WebElement CountryIcon;
+	private WebElement CountryIcon;
 
 	@FindBy(xpath = "(//span[text()='India (भारत)'])[1]")
-	WebElement SelectCountry;
+	private WebElement SelectCountry;
 
 	@FindBy(xpath = "(//input[@type='tel'])")
-	WebElement EnterPhone;
+	private WebElement EnterPhone;
 	@FindBy(xpath = "(//input[@name='addLine1'])")
-	WebElement EnterAddress;
+	private WebElement EnterAddress;
 
 	@FindBy(xpath = "(//input[@name='pincode'])")
-	WebElement EnterZipcode;
+	private WebElement EnterZipcode;
 
 	@FindBy(xpath = "//button[text()='Continue']")
-	WebElement ContinueButtonP;
+	private WebElement ContinueButtonP;
 	@FindBy(xpath = "//button[text()='+Add a new card']")
-	WebElement AddNewCard;
+	private WebElement AddNewCard;
 	@FindBy(xpath = "//input[@placeholder='Name on the card']")
-	WebElement NameCard;
+	private WebElement NameCard;
 	@FindBy(id = "card_number")
-	WebElement CardNo;
+	private WebElement CardNo;
 	@FindBy(id = "cvv")
-	WebElement CVV;
+	private WebElement CVV;
 	// label[text()='Card Number']/following-sibling::input
 	@FindBy(xpath = "//input[@placeholder='MM']")
-	WebElement Month;
+	private WebElement Month;
 	@FindBy(xpath = "//input[@placeholder='YYYY']")
-	WebElement YearYYY;
+	private WebElement YearYYY;
 
 	@FindBy(xpath = "//button[text()='Add Card']")
-	WebElement AddCard;
+	private WebElement AddCard;
 	@FindBy(xpath = "//button[text()='Confirm Order & Checkout']")
-	WebElement ConfirmOrder;
+	private WebElement ConfirmOrder;
 
 	@FindBy(className = "close_icon")
-	WebElement CloseIcon;
+	private WebElement CloseIcon;
 //	    @FindBy(xpath = "//button[text()='Continue']")
 //	    WebElement ContinueButtonP;
 //	    

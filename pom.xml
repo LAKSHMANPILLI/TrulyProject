@@ -69,18 +69,33 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.5.1</version>
+				<version>3.8.1</version>
 				<configuration>
-					<source>1.8</source>
-					<target>1.8</target>
-					<fork>true</fork>
-					<executable>C:\Program Files\Java\jdk1.8.0_73\bin\javac</executable>
+					<source>21</source>
+					<target>21</target>
+					<!-- <fork>true</fork> -->
+					<!-- <executable>C:\Program
+					Files\Java\jdk-21\bin</executable> -->
+
 				</configuration>
 			</plugin>
-
-
+			<plugin>
+				<!-- Build an executable JAR -->
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>3.1.0</version>
+				<configuration>
+					<archive>
+						<manifest>
+							<addClasspath>true</addClasspath>
+							<classpathPrefix>lib/</classpathPrefix>
+							<mainClass>
+								C:\Users\laksh\eclipse-workspace\TrulyfreehomeProject\testng.xml</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
-
 
 </project>
